@@ -4,7 +4,9 @@
     "description": "The starter kit contains components, fonts, pages, scripts, and styles using tailwindcss from inthernals",
     "main": "tailwind.config.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "tw-build": "npx tailwindcss -i ./source@inthernals-kit.css -o ./styles/inthernals-kit.css",
+        "tw-watch": "npx tailwindcss -i ./source@inthernals-kit.css -o ./styles/inthernals-kit.css --watch",
+        "tw-minify": "npx tailwindcss -o ./styles/inthernals-kit.css --minify"
     },
     "repository": {
         "type": "git",
