@@ -2,7 +2,7 @@
     "name": "inthernals-kit",
     "version": "1.0.0",
     "description": "The starter kit contains components, fonts, pages, scripts, and styles using tailwindcss from inthernals",
-    "main": "index.js",
+    "main": "tailwind.config.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -18,5 +18,8 @@
     "bugs": {
         "url": "https://github.com/inthernals/inthernals-kit/issues"
     },
-    "homepage": "https://github.com/inthernals/inthernals-kit#readme"
+    "homepage": "https://github.com/inthernals/inthernals-kit#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.2.7"
+    }
 }
